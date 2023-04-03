@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <appender name="PAPERTRAIL" class="ch.qos.logback.classic.net.SyslogAppender">
-        <syslogHost>logs4.papertrailapp.com</syslogHost>
-        <port>32436</port>
+        <syslogHost>${HOST}</syslogHost>
+        <port>${PORT}</port>
         <facility>USER</facility>
         <suffixPattern>LogBackClient %logger %msg</suffixPattern>
     </appender>
