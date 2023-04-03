@@ -1,0 +1,9 @@
+10:38:30.799 [main] INFO  ROOT - Entering application.
+10:38:30.806 [main] DEBUG org.LogBack1.Main$Foo - Did it again!
+10:38:30.807 [main] INFO  ROOT - Exiting application.
+10:45:53.046 [main] INFO  ROOT - Entering application.
+10:45:53.053 [main] DEBUG org.LogBack1.Main$Foo - Did it again!
+10:45:53.053 [main] INFO  ROOT - Exiting application.
+10:48:23.926 [main] INFO  ROOT - Entering application.
+10:48:23.933 [main] DEBUG org.LogBack1.Main$Foo - Did it again!
+10:48:23.933 [main] INFO  ROOT - Exiting application.
