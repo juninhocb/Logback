@@ -12,7 +12,7 @@ public class Main {
     final static Logger logger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
     public static void main(String[] args) {
 
-        //test the 0 case with LogBackInit to see difference between running with and without logback.xml
+        //test the 0 case with LogBackInit to see difference between running with and without logback-console.xml
 
         Scanner scanner = new Scanner(System.in);
         int program = 0;
@@ -39,7 +39,7 @@ public class Main {
         LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory(); //this calls the main factory
         StatusPrinter.print(lc);
         /* About the print above
-            If no configuration of logback.xml is available, this print will show it,
+            If no configuration of logback-console.xml is available, this print will show it,
             this occurs because the default policy of Logback is using ConsoleAppender as Appender.
 
             Appender is a class that sets the output destination.
@@ -83,7 +83,6 @@ public class Main {
             logger.debug("Did it again!");
         }
     }
-
 
 }
 
